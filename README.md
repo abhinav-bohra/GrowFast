@@ -1,17 +1,16 @@
 # GROWFAST
-## Employee Management System
-
+```  ## Employee Management System
 ```
 GrowFast is an integrated management tool and Employee-HR portal which helps top level
 management of an organization to manage their HR related activities more effectively and
 efficiently. It is a holistic software to help employees of an organization to carry out their
 internal and task easily and effectively.
-```
 
 ## Getting Started
 
 ```
-Download or clone this repository on your system. See deployment for notes on how to deploy the project on a live system.
+Download or clone this repository on your system. See deployment for notes on how to deploy 
+the project on a live system.
 ```
 ### Prerequisites
 ```
