@@ -12,12 +12,13 @@ the project on a live system.
 
 ### Prerequisites
 ```
-JDK 13.0.1
-JavaFX 11.0.2
+* JDK 13.0.1
+* JavaFX 11.0.2
 ```
 ### Installing
 ```
-Run Growfast.bat file
+* Download GrowFast Folder
+* Run Growfast.bat file
 ```
 
 ## Built With
