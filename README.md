@@ -16,10 +16,15 @@ the project on a live system.
 - JavaFX 11.0.2
 ```
 ### Installing
+
+- Install JavaFX 11.0.2
+- Download GrowFast Repo
+- Edit Growfast.bat file and copy paste the following command
 ```
-- Download GrowFast Folder
+java --module-path "C:\path\java\javafx-sdk-11.0.2\lib" --add-modules javafx.fxml,javafx.controls,javafx.graphics -jar Growfast.jar
+```
+- (Add path to JavaFX 11.0.2 folder in the above command)
 - Run Growfast.bat file
-```
 
 ## Built With
 
