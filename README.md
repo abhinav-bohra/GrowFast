@@ -6,7 +6,10 @@ efficiently. It is a holistic software to help employees of an organization to c
 internal and task easily and effectively.
 
 ## Screenshots
-!!![GrowFast Login Page](https://github.com/abhinav-bohra/GrowFast/blob/master/Screenshots/1%20Login.png)
+![GrowFast Login Page](https://github.com/abhinav-bohra/GrowFast/blob/master/Screenshots/1%20Login.png)
+![GrowFast Login Page](https://github.com/abhinav-bohra/GrowFast/blob/master/Screenshots/1%20Login.png)
+![GrowFast Login Page](https://github.com/abhinav-bohra/GrowFast/blob/master/Screenshots/1%20Login.png)
+
 
 ## Getting Started
 
