@@ -23,9 +23,8 @@ the project on a live system.
 
 ## Built With
 
-* [JavaFX](http://www.dropwizard.io/1.0.2/docs/) - Used for making GUI
+* [JavaFX](https://openjfx.io/) - Used for making GUI
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
