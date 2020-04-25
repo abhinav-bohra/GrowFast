@@ -3,16 +3,17 @@
 
 GrowFast is an integrated management tool and Employee-HR portal which helps top level
 management of an organization to manage their HR related activities more effectively and
-efficiently.It is a holistic software to help employees of an organization to carry out their
+efficiently. It is a holistic software to help employees of an organization to carry out their
 internal and task easily and effectively.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Download or clone this repository on your system. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+JDK 13.0.1
+JavaFX 11.0.2
 
 ```
 Give examples
@@ -20,21 +21,6 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
