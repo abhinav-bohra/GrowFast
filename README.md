@@ -21,7 +21,8 @@ the project on a live system.
 - Download GrowFast Repo
 - Edit Growfast.bat file and copy paste the following command
 ```
-java --module-path "C:\path\java\javafx-sdk-11.0.2\lib" --add-modules javafx.fxml,javafx.controls,javafx.graphics -jar Growfast.jar
+java --module-path "C:\path\java\javafx-sdk-11.0.2\lib" --add-modules javafx.fxml,javafx.controls,javafx.graphics 
+-jar Growfast.jar
 ```
 - (Add path to JavaFX 11.0.2 folder in the above command)
 - Run Growfast.bat file
@@ -36,7 +37,8 @@ The constraints are :
 - Cannot implemented as an Android/IOS App
 - Doesn’t work on outdated/slow servers
 - No other languages except English is used in this implementation
--  Advanced security features haven’t been introduced.
+-  Advanced security features haven’t been introduced
+
 ## Assumptions and Dependencies
 
 It is assumed that the display will be provided to the all employees. It is assumed that there would
