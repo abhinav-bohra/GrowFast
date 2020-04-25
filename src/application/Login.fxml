@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="625.0" prefWidth="920.0" style="-fx-background-color: #2591c9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login_Controller">
+   <children>
+      <ImageView fitHeight="625.0" fitWidth="507.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/LeftPanel.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="87.0" layoutX="683.0" layoutY="97.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/log-in.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="UsernameTextfield" layoutX="634.0" layoutY="273.0" prefHeight="26.0" prefWidth="210.0" promptText="example@growfast.com" />
+      <PasswordField fx:id="PasswordTextField" layoutX="634.0" layoutY="361.0" prefHeight="26.0" prefWidth="210.0" promptText="Enter Password" />
+      <Button layoutX="678.0" layoutY="515.0" mnemonicParsing="false" onAction="#LoginAction" prefHeight="30.0" prefWidth="112.0" style="-fx-background-color: #edeff2;" text="Sign In" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="634.0" layoutY="333.0" prefHeight="18.0" prefWidth="87.0" text="PASSWORD" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="634.0" layoutY="238.0" prefHeight="18.0" prefWidth="87.0" text="USERNAME" textFill="#f5f3f3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="595.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/1%201%20Latest_Icon%20(7).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="595.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/1%201%20Latest_Icon%20(6).png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="LoginTypeChoice" layoutX="634.0" layoutY="446.0" onDragDetected="#onAction_LoginTypeChoice" prefHeight="26.0" prefWidth="210.0" style="-fx-background-color: WHITE;" />
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="595.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/employee.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="634.0" layoutY="420.0" prefHeight="18.0" prefWidth="87.0" text="LOGIN TYPE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

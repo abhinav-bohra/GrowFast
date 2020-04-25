@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.Employee_Leave_Application_Controller">
+   <children>
+      <Label alignment="CENTER" layoutY="-1.0" prefHeight="31.0" prefWidth="600.0" style="-fx-background-color: #1F8FE8;" text="PLEASE FILL THE FOLLOWING DETAILS FOR APPLYING FOR LEAVE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <DatePicker fx:id="StartDateButton" layoutX="97.0" layoutY="65.0" promptText="Start Date" />
+      <DatePicker fx:id="EndDateButton" layoutX="302.0" layoutY="66.0" promptText="End Date" />
+      <TextArea fx:id="ReasonTextArea" layoutX="97.0" layoutY="100.0" prefHeight="200.0" prefWidth="382.0" promptText="Please Enter Reason for Leave" wrapText="true" />
+      <Button fx:id="Submit" layoutX="296.0" layoutY="310.0" mnemonicParsing="false" onAction="#onClick_Submit" style="-fx-background-color: #1F8FE8;" text="Submit Application" textFill="#fdfdfd" />
+      <ImageView fitHeight="31.0" fitWidth="30.0" layoutX="569.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/gf_logo_icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="97.0" layoutY="41.0" text="From :" />
+      <Label layoutX="302.0" layoutY="43.0" text="To :" />
+      <Button fx:id="CancelButton" layoutX="165.0" layoutY="310.0" mnemonicParsing="false" onAction="#onClick_CancelButton" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: #1F8FE8;" text="Cancel Application" textFill="WHITE" />
+   </children>
+</AnchorPane>

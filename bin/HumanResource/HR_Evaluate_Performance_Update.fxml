@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="434.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumanResource.HR_Evaluate_Performance_Update_Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="36.0" prefWidth="374.0" style="-fx-background-color: #1F8FE8;" text="UPDATE EMPLOYEE PERFORMANCE" textFill="#f2efef">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Sincerity" layoutX="123.0" layoutY="66.0" prefHeight="18.0" prefWidth="45.0" />
+      <Label layoutX="33.0" layoutY="70.0" text="Sincerity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Reliability" layoutX="295.0" layoutY="66.0" prefHeight="18.0" prefWidth="45.0" />
+      <Label layoutX="205.0" layoutY="70.0" text="Reliability">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Leadership" layoutX="123.0" layoutY="113.0" prefHeight="18.0" prefWidth="45.0" />
+      <Label layoutX="33.0" layoutY="117.0" text="Leadership">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="TeamSpirit" layoutX="295.0" layoutY="113.0" prefHeight="18.0" prefWidth="45.0" />
+      <Label layoutX="205.0" layoutY="117.0" text="Team Spirit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Integrity" layoutX="123.0" layoutY="162.0" prefHeight="18.0" prefWidth="45.0" />
+      <Label layoutX="33.0" layoutY="166.0" text="Integrity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="SoftSkills" layoutX="295.0" layoutY="162.0" prefHeight="18.0" prefWidth="45.0" />
+      <Label layoutX="207.0" layoutY="165.0" text="Soft Skills">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="CommentsTextField" layoutX="35.0" layoutY="221.0" prefHeight="140.0" prefWidth="307.0" promptText="Other Remarks/Comments for the Employee" />
+      <Button fx:id="SaveButton" defaultButton="true" layoutX="85.0" layoutY="382.0" mnemonicParsing="false" onAction="#onClick_SaveButton" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #1F8FE8;" text="Save " textFill="WHITE" />
+      <Button fx:id="CancelButton" defaultButton="true" layoutX="198.0" layoutY="382.0" mnemonicParsing="false" onAction="#onClick_CancelButton" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #1F8FE8;" text="Cancel" textFill="WHITE" />
+   </children>
+</AnchorPane>

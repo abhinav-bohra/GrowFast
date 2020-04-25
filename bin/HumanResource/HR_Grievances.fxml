@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="695.0" prefWidth="1052.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumanResource.HR_Grievances_Controller">
+   <children>
+      <AnchorPane prefHeight="693.0" prefWidth="266.0" style="-fx-background-color: #257ca9;">
+         <children>
+            <Button fx:id="DashboardButton" focusTraversable="false" layoutY="67.0" mnemonicParsing="false" onAction="#onAction_DashboardButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="  Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="55.0" right="5.0" top="32.0" />
+               </opaqueInsets></Button>
+            <Button fx:id="AddEmployee" defaultButton="true" layoutY="140.0" mnemonicParsing="false" onAction="#onAction_AddEmployee" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="     Manage Employee" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ApproveApplicationButton" defaultButton="true" layoutY="213.0" mnemonicParsing="false" onAction="#onAction_ApproveApplicationButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="        Approve Applications" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ManageSalaryButton" defaultButton="true" layoutY="286.0" mnemonicParsing="false" onAction="#onAction_ManageSalaryButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Manage Payroll" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="UpdatePerformanceButton" defaultButton="true" layoutY="359.0" mnemonicParsing="false" onAction="#onAction_UpdatePerformanceButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="         Update Performance" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="NewButton" defaultButton="true" layoutY="432.0" mnemonicParsing="false" onAction="#onAction_NewButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="           Company Reports" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Manage_GrievancesButton" defaultButton="true" layoutY="505.0" mnemonicParsing="false" onAction="#onAction_Manage_GrievancesButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="             Manage Grievances" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogoutButton" defaultButton="true" layoutY="578.0" mnemonicParsing="false" onAction="#onAction_LogoutButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="BackButton" defaultButton="true" layoutY="14.0" mnemonicParsing="false" onAction="#onAction_BackButton" prefHeight="41.0" prefWidth="56.0" style="-fx-background-color: #1F8FE8;" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/chevron-sign-left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="93.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(7).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="57.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/pay.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/interview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="64.0" layoutY="602.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/logout%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="455.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(8).png" />
+               </image>
+            </ImageView>
+            </children>
+      </AnchorPane>
+      <HBox layoutX="266.0" layoutY="34.0" prefHeight="70.0" prefWidth="786.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="791.0" style="-fx-background-color: #257ca9;" text="RESOLVE EMPLOYEE GRIEVANCES" textAlignment="CENTER" textFill="#f5eeee">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <TableView fx:id="GTable" layoutX="277.0" layoutY="124.0" prefHeight="318.0" prefWidth="764.0">
+        <columns>
+          <TableColumn fx:id="GIDCol" prefWidth="76.0" text="Greivance ID" />
+          <TableColumn fx:id="EIDCol" prefWidth="79.20001220703125" text="Employee ID" />
+            <TableColumn fx:id="ENameCol" prefWidth="104.0" text="Employee Name" />
+            <TableColumn fx:id="GDesCol" minWidth="0.0" prefWidth="309.60003662109375" text="Grievance Description" />
+            <TableColumn fx:id="StatusCol" minWidth="0.0" prefWidth="89.5999755859375" text="Current Status" />
+            <TableColumn fx:id="HRIDCol" prefWidth="106.4000244140625" text="Assigned HR ID" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="304.0" layoutY="476.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/601769-637199628717504685-16x9.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="BOTTOM_CENTER" defaultButton="true" layoutX="304.0" layoutY="477.0" mnemonicParsing="false" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="359.0" layoutY="635.0" text="Address Grievance">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="544.0" layoutY="476.0" prefHeight="16.0" prefWidth="326.0" text="GRIEVANCE MANAGEMENT PORTAL" textAlignment="CENTER">
+         <font>
+            <Font name="Trebuchet MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="GPTextField" layoutX="592.0" layoutY="517.0" onAction="#onACtion_GPTextField" prefHeight="26.0" prefWidth="224.0" promptText="Enter Grievance ID" />
+      <ChoiceBox fx:id="StatusChoiceBox" disable="true" layoutX="592.0" layoutY="570.0" prefHeight="26.0" prefWidth="224.0" />
+      <Button fx:id="SubmitButton" defaultButton="true" layoutX="655.0" layoutY="621.0" mnemonicParsing="false" onAction="#onAction_SubmitButton" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #1F8FE8;" text="Submit" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

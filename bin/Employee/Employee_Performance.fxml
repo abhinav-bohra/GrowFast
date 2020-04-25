@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="671.0" prefWidth="920.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.Employee_Performance_Controller">
+   <children>
+      <Label layoutX="554.0" layoutY="111.0" prefHeight="206.0" prefWidth="314.0" />
+      <Button fx:id="WebButton1" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="318.0" layoutY="118.0" mnemonicParsing="false" onAction="#onAction_WebButton" opacity="0.2" prefHeight="198.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane prefHeight="671.0" prefWidth="266.0" style="-fx-background-color: #257ca9;">
+         <children>
+            <Button fx:id="DashboardButton" focusTraversable="false" layoutY="70.0" mnemonicParsing="false" onAction="#onAction_DashboardButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="  Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="55.0" right="5.0" top="32.0" />
+               </opaqueInsets></Button>
+            <Button fx:id="ProfileButton" defaultButton="true" layoutY="143.0" mnemonicParsing="false" onAction="#onAction_ProfileButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Profile Details" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ApplicationButton" defaultButton="true" layoutY="216.0" mnemonicParsing="false" onAction="#onAction_ApplicationButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Applications" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="SalaryButton" defaultButton="true" layoutY="289.0" mnemonicParsing="false" onAction="#onAction_SalaryButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Salary Status" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="PerformanceButton" defaultButton="true" layoutY="362.0" mnemonicParsing="false" onAction="#onAction_PerformanceButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Performance" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="WebButton" defaultButton="true" layoutY="435.0" mnemonicParsing="false" onAction="#onAction_WebButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="                 Web Based Learnings" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="HRButton" defaultButton="true" layoutY="508.0" mnemonicParsing="false" onAction="#onAction_HRButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="             Human Resource" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogoutButton" defaultButton="true" layoutY="581.0" mnemonicParsing="false" onAction="#onAction_LogoutButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="BackButton" defaultButton="true" layoutY="11.0" mnemonicParsing="false" onAction="#onAction_BackButton" prefHeight="41.0" prefWidth="56.0" style="-fx-background-color: #1F8FE8;" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/chevron-sign-left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="95.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(7).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="57.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/pay.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/interview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="64.0" layoutY="604.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/logout%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="457.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(8).png" />
+               </image>
+            </ImageView>
+            </children>
+      </AnchorPane>
+      <ImageView fitHeight="167.0" fitWidth="240.0" layoutX="318.0" layoutY="111.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/Performance-review-bseppings.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="266.0" layoutY="14.0" prefHeight="70.0" prefWidth="663.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="665.0" style="-fx-background-color: #257ca9;" text="SELF ASSESSMENT" textAlignment="CENTER" textFill="#f5eeee">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label alignment="BASELINE_CENTER" layoutX="378.0" layoutY="281.0" prefHeight="26.0" prefWidth="120.0" text="MY PERFORMANCE">
+         <font>
+            <Font name="Trebuchet MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="SubmitButton" defaultButton="true" layoutX="811.0" layoutY="270.0" mnemonicParsing="false" onAction="#onClick_SubmitButton" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #1F8FE8;" text="Submit" textFill="WHITE" />
+      <Button fx:id="CheckButton" defaultButton="true" layoutX="380.0" layoutY="631.0" mnemonicParsing="false" onAction="#onClick_CheckButton" style="-fx-background-color: #1F8FE8;" text="Check Your Performance" textFill="#fffcfc" />
+      <Label layoutX="580.0" layoutY="115.0" text="Sincerity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="580.0" layoutY="169.0" text="Reliability">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="580.0" layoutY="226.0" text="Leadership">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="115.0" text="Team Spirit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="169.0" text="Integrity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="222.0" text="Soft Skills">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Sincerity" layoutX="657.0" layoutY="113.0" prefHeight="0.0" prefWidth="53.0" />
+      <ChoiceBox fx:id="Reliability" layoutX="658.0" layoutY="168.0" prefHeight="0.0" prefWidth="53.0" />
+      <ChoiceBox fx:id="Leadership" layoutX="658.0" layoutY="223.0" prefHeight="0.0" prefWidth="53.0" />
+      <ChoiceBox fx:id="TeamSpirit" layoutX="810.0" layoutY="111.0" prefHeight="0.0" prefWidth="53.0" />
+      <ChoiceBox fx:id="Integrity" layoutX="809.0" layoutY="166.0" prefHeight="0.0" prefWidth="53.0" />
+      <ChoiceBox fx:id="SoftSkills" layoutX="810.0" layoutY="221.0" prefHeight="0.0" prefWidth="53.0" />
+      <BarChart fx:id="Chart1" alternativeColumnFillVisible="true" animated="false" categoryGap="15.0" layoutX="253.0" layoutY="332.0" legendVisible="false" prefHeight="300.0" prefWidth="350.0" title="Self Assessment">
+        <xAxis>
+          <CategoryAxis fx:id="X1" label="Qualities" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="Y1" label="Score" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <BarChart fx:id="Chart2" alternativeColumnFillVisible="true" animated="false" categoryGap="15.0" layoutX="578.0" layoutY="331.0" legendVisible="false" prefHeight="300.0" prefWidth="350.0" title="Manager's Assessment">
+         <xAxis>
+            <CategoryAxis fx:id="X2" label="Qualities" side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="Y2" label="Score" side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <Button fx:id="HRButton" defaultButton="true" layoutX="690.0" layoutY="631.0" mnemonicParsing="false" onAction="#onClick_HRButton" style="-fx-background-color: #1F8FE8;" text="Check Remarks from HR" textFill="#fffcfc" />
+   </children>
+</AnchorPane>

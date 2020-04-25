@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="284.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumanResource.HR_Payroll_Payment_Controller">
+   <children>
+      <Label fx:id="T10" layoutY="4.0" prefHeight="278.0" prefWidth="558.0" style="-fx-background-color: #e8feff;" />
+      <Label fx:id="T1" layoutX="28.0" layoutY="65.0" prefHeight="19.0" prefWidth="110.0" text="Employee ID :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T2" layoutX="28.0" layoutY="103.0" prefHeight="18.0" prefWidth="94.0" text="Basic Pay :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T3" layoutX="28.0" layoutY="144.0" prefHeight="18.0" prefWidth="94.0" text="Penalties:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T4" layoutX="28.0" layoutY="182.0" prefHeight="18.0" prefWidth="94.0" text="Tax %">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T9" alignment="CENTER" contentDisplay="CENTER" prefHeight="34.0" prefWidth="558.0" style="-fx-background-color: #1F8FE8;" text="ENTER TRANSACTION DETAILS" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="T6" layoutX="283.0" layoutY="143.0" prefHeight="18.0" prefWidth="94.0" text="Bonus:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T7" layoutX="283.0" layoutY="104.0" prefHeight="19.0" prefWidth="110.0" text="Reimbursement :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T8" layoutX="283.0" layoutY="182.0" prefHeight="18.0" prefWidth="94.0" text="Net Payment:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="T5" layoutX="283.0" layoutY="65.0" prefHeight="19.0" prefWidth="124.0" text="Month">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="MakeButton" defaultButton="true" layoutX="290.0" layoutY="237.0" mnemonicParsing="false" onAction="#onAction_MakeButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #1F8FE8;" text="Make Transaction" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Button>
+      <TextField fx:id="EIDTF" editable="false" layoutX="116.0" layoutY="62.0" prefHeight="26.0" prefWidth="130.0" />
+      <TextField fx:id="BasicPayTF" editable="false" layoutX="116.0" layoutY="103.0" prefHeight="26.0" prefWidth="130.0" promptText="Amount in Rs." />
+      <TextField fx:id="BonusTF" layoutX="407.0" layoutY="142.0" prefHeight="26.0" prefWidth="130.0" promptText="Amount in Rs." />
+      <TextField fx:id="PenaltiesTF" layoutX="116.0" layoutY="143.0" prefHeight="26.0" prefWidth="130.0" promptText="Amount in Rs." />
+      <TextField fx:id="RMBTF" editable="false" layoutX="407.0" layoutY="102.0" prefHeight="26.0" prefWidth="130.0" promptText="Amount in Rs." />
+      <TextField fx:id="TaxTF" layoutX="116.0" layoutY="183.0" prefHeight="26.0" prefWidth="130.0" promptText="Enter %" />
+      <TextField disable="true" layoutX="407.0" layoutY="182.0" prefHeight="26.0" prefWidth="130.0" promptText="Amount in Rs." text="System Generated" />
+      <Button fx:id="CancelButton" defaultButton="true" layoutX="153.0" layoutY="237.0" mnemonicParsing="false" onAction="#onAction_CancelButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #1F8FE8;" text="Cancel" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Button>
+      <ImageView fitHeight="41.0" fitWidth="34.0" layoutX="524.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/gf_logo_icon.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="MonthTF" editable="false" layoutX="407.0" layoutY="61.0" prefHeight="26.0" prefWidth="130.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="671.0" prefWidth="920.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.Employee_WebBasedLearning_Controller">
+   <children>
+      <Label layoutX="315.0" layoutY="306.0" prefHeight="47.0" prefWidth="240.0" style="-fx-background-color: #f2f4f7;" />
+      <Label layoutX="315.0" layoutY="536.0" prefHeight="47.0" prefWidth="240.0" />
+      <AnchorPane prefHeight="671.0" prefWidth="266.0" style="-fx-background-color: #257ca9;">
+         <children>
+            <Button fx:id="DashboardButton" focusTraversable="false" layoutY="70.0" mnemonicParsing="false" onAction="#onAction_DashboardButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="  Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="55.0" right="5.0" top="32.0" />
+               </opaqueInsets></Button>
+            <Button fx:id="ProfileButton" defaultButton="true" layoutY="143.0" mnemonicParsing="false" onAction="#onAction_ProfileButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Profile Details" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ApplicationButton" defaultButton="true" layoutY="216.0" mnemonicParsing="false" onAction="#onAction_ApplicationButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Applications" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="SalaryButton" defaultButton="true" layoutY="289.0" mnemonicParsing="false" onAction="#onAction_SalaryButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Salary Status" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="PerformanceButton" defaultButton="true" layoutY="362.0" mnemonicParsing="false" onAction="#onAction_PerformanceButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Performance" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="WebButton" defaultButton="true" layoutY="435.0" mnemonicParsing="false" onAction="#onAction_WebButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="                 Web Based Learnings" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="HRButton" defaultButton="true" layoutY="508.0" mnemonicParsing="false" onAction="#onAction_HRButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="             Human Resource" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogoutButton" defaultButton="true" layoutY="581.0" mnemonicParsing="false" onAction="#onAction_LogoutButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="BackButton" defaultButton="true" layoutY="11.0" mnemonicParsing="false" onAction="#onAction_BackButton" prefHeight="41.0" prefWidth="56.0" style="-fx-background-color: #1F8FE8;" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/chevron-sign-left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="95.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(7).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="57.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/pay.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/interview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="64.0" layoutY="604.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/logout%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="457.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(8).png" />
+               </image>
+            </ImageView>
+            </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="315.0" layoutY="157.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/index.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="315.0" layoutY="385.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/FB-Preview-Image-TimeManagementSkills.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="266.0" layoutY="34.0" prefHeight="70.0" prefWidth="656.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="74.0" prefWidth="657.0" style="-fx-background-color: #257ca9;" text="WEB BASED LEARNINGS" textAlignment="CENTER" textFill="#f5eeee">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="555.0" layoutY="157.0" prefHeight="47.0" prefWidth="324.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="47.0" prefWidth="363.0" style="-fx-background-color: #f2f4f7;" text="Online Courses Available" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox layoutX="555.0" layoutY="385.0" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f2f4f7;">
+         <children>
+            <Label alignment="CENTER" prefHeight="47.0" prefWidth="375.0" style="-fx-background-color: #f2f4f7;" text="Online Courses Available" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <Label layoutX="383.0" layoutY="320.0" style="-fx-background-color: #f2f4f7;" text="TECHNICAL SKILLS">
+         <font>
+            <Font name="Trebuchet MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="550.0" style="-fx-background-color: #f2f4f7;" text="MANAGEMENT SKILLS">
+         <font>
+            <Font name="Trebuchet MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="555.0" layoutY="204.0" prefHeight="150.0" prefWidth="324.0" text="1. Big Data Engineer Master's Program&#10;2. Data Science with Python Course&#10;3. AWS Solutions Architect Certification &#10;4. Certified Ethical Hacking Course:CEH(v10)&#10;5. Salesforce Administrator Training Program&#10;6. Cybersecurity and Ethical Hacking Course&#10;">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <TextArea editable="false" layoutX="555.0" layoutY="432.0" prefHeight="150.0" prefWidth="324.0" text="1. Digital Mareting &amp; Advertising&#10;2. International Business Management&#10;3. Time Management Skills&#10;4. Financial &amp; Commodity Derivatives&#10;5. Organisational Behaviour&#10;6. Leadership and Ethics&#10;" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

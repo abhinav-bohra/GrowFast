@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="565.0" prefWidth="927.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumanResource.HR_HomePage_Controller">
+   <children>
+      <HBox layoutX="67.0" layoutY="275.0" prefHeight="38.0" prefWidth="243.0" />
+      <ImageView blendMode="SRC_ATOP" fitHeight="595.0" fitWidth="927.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/11%20(8).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="67.0" layoutY="120.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/Untitled.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="AddEmployee_Button" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="67.0" layoutY="121.0" mnemonicParsing="false" onAction="#onClick_AddEmployee_Button" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="126.0" layoutY="279.0" text="Manage Employee" textFill="WHITE">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="352.0" layoutY="120.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/11%20(19).jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ApproveApplications_Button" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="352.0" layoutY="121.0" mnemonicParsing="false" onAction="#onClick_ApproveApplications_Button" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="397.0" layoutY="279.0" text="Approve Applications" textFill="#faf8f8">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="625.0" layoutY="120.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/11%20(6).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ManageSalary_Button" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="625.0" layoutY="121.0" mnemonicParsing="false" onAction="#onClick_ManageSalary_Button" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="67.0" layoutY="349.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/1575376469213-employee-evaluation-form.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="UpdatePerformance_Button" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="67.0" layoutY="349.0" mnemonicParsing="false" onAction="#onClick_UpdatePerformance_Button" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="350.0" layoutY="349.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/Employee-Incentive-Programs-The-Best-23-Ranked.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="NewButton" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="350.0" layoutY="349.0" mnemonicParsing="false" onAction="#onClick_NewButton" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="240.0" layoutX="632.0" layoutY="349.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/1%2082SL4ynqeIL9qIwYpkEcow.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="Grievanes_Button" alignment="BOTTOM_CENTER" defaultButton="true" layoutX="632.0" layoutY="349.0" mnemonicParsing="false" onAction="#onClick_Grievanes_Button" opacity="0.2" prefHeight="186.0" prefWidth="240.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="684.0" layoutY="279.0" text="Manage Payroll" textFill="#fdf7f7">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="507.0" text="Update Employee Performance" textFill="#f8f4f4">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="507.0" text="Company Reports" textFill="#f8f4f4">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="684.0" layoutY="507.0" text="Resolve Grievances" textFill="#faf5f5">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="79.0" fitWidth="211.0" layoutX="716.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/gf_logo%20-%20Copy%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="35.0" layoutX="9.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/log-out.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="LogoutButton" layoutX="9.0" layoutY="548.0" mnemonicParsing="false" onAction="#onAction_LogoutButton" opacity="0.0" prefHeight="38.0" prefWidth="35.0" />
+   </children>
+</AnchorPane>

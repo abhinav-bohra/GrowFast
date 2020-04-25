@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="702.0" prefWidth="948.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.Employee_Salary_Controller">
+   <children>
+      <Label layoutX="340.0" layoutY="389.0" prefHeight="288.0" prefWidth="562.0" style="-fx-background-color: #bbecfa;" />
+      <AnchorPane prefHeight="701.0" prefWidth="250.0" style="-fx-background-color: #257ca9;">
+         <children>
+            <Button fx:id="DashboardButton" focusTraversable="false" layoutY="70.0" mnemonicParsing="false" onAction="#onAction_DashboardButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="  Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="55.0" right="5.0" top="32.0" />
+               </opaqueInsets></Button>
+            <Button fx:id="ProfileButton" defaultButton="true" layoutY="143.0" mnemonicParsing="false" onAction="#onAction_ProfileButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Profile Details" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ApplicationButton" defaultButton="true" layoutY="216.0" mnemonicParsing="false" onAction="#onAction_ApplicationButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Applications" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="SalaryButton" defaultButton="true" layoutY="289.0" mnemonicParsing="false" onAction="#onAction_SalaryButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Salary Status" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="PerformanceButton" defaultButton="true" layoutY="362.0" mnemonicParsing="false" onAction="#onAction_PerformanceButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Performance" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="WebButton" defaultButton="true" layoutY="435.0" mnemonicParsing="false" onAction="#onAction_WebButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="                 Web Based Learnings" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="HRButton" defaultButton="true" layoutY="508.0" mnemonicParsing="false" onAction="#onAction_HRButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="             Human Resource" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogoutButton" defaultButton="true" layoutY="581.0" mnemonicParsing="false" onAction="#onAction_LogoutButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="BackButton" defaultButton="true" layoutY="11.0" mnemonicParsing="false" onAction="#onAction_BackButton" prefHeight="41.0" prefWidth="56.0" style="-fx-background-color: #1F8FE8;" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/chevron-sign-left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="95.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(7).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="57.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/pay.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/interview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="64.0" layoutY="604.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/logout%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="457.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(8).png" />
+               </image>
+            </ImageView>
+            </children>
+      </AnchorPane>
+      <HBox layoutX="266.0" layoutY="34.0" prefHeight="70.0" prefWidth="685.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="687.0" style="-fx-background-color: #257ca9;" text="SALARY MANAGEMENT" textAlignment="CENTER" textFill="#f5eeee">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="606.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/search.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="MonthChoice" cache="true" cacheHint="QUALITY" layoutX="631.0" layoutY="183.0" prefHeight="26.0" prefWidth="174.0" />
+      <Label layoutX="631.0" layoutY="157.0" prefHeight="20.0" prefWidth="94.0" text="Select Month">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button alignment="BOTTOM_CENTER" defaultButton="true" layoutX="338.0" layoutY="157.0" mnemonicParsing="false" opacity="0.2" prefHeight="191.0" prefWidth="254.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="414.0" layoutY="322.0" text="CHECK BALANCE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="450.0" prefHeight="19.0" prefWidth="110.0" text="Employee ID:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="488.0" prefHeight="18.0" prefWidth="94.0" text="Basic Pay :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="529.0" prefHeight="18.0" prefWidth="94.0" text="Deductions:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="567.0" prefHeight="19.0" prefWidth="109.0" text="Tax Deduction %:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="341.0" layoutY="385.0" prefHeight="34.0" prefWidth="562.0" style="-fx-background-color: #1F8FE8;" text="EMPLOYEE SALARY DETAILS" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="488.0" prefHeight="18.0" prefWidth="94.0" text="Bonus:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="529.0" prefHeight="19.0" prefWidth="110.0" text="Reimbursement :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="567.0" prefHeight="18.0" prefWidth="94.0" text="Net Payment:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="450.0" prefHeight="19.0" prefWidth="124.0" text="Employee Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="GeneratePaySlipButton" defaultButton="true" disable="true" layoutX="554.0" layoutY="640.0" mnemonicParsing="false" onAction="#onClick_Generate" style="-fx-background-color: #1F8FE8;" text="Generate Pay Slip" textFill="#fff8f8" />
+      <Label fx:id="L0" layoutX="495.0" layoutY="451.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L2" layoutX="495.0" layoutY="488.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L3" layoutX="495.0" layoutY="529.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L4" layoutX="495.0" layoutY="567.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L5" layoutX="750.0" layoutY="450.0" prefHeight="18.0" prefWidth="130.0" text="________________" />
+      <Label fx:id="L6" layoutX="749.0" layoutY="488.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L7" layoutX="749.0" layoutY="529.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L8" layoutX="749.0" layoutY="567.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <ImageView fitHeight="154.0" fitWidth="254.0" layoutX="338.0" layoutY="157.0" pickOnBounds="true">
+         <image>
+            <Image url="@../icons/11%20(3).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="367.0" layoutY="604.0" prefHeight="19.0" prefWidth="124.0" text="Tax Deduction Amt:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="604.0" prefHeight="19.0" prefWidth="124.0" text="Transaction Status:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="L11" layoutX="495.0" layoutY="606.0" prefHeight="18.0" prefWidth="94.0" text="________________" />
+      <Label fx:id="L1" layoutX="749.0" layoutY="606.0" prefHeight="18.0" prefWidth="130.0" text="________________________" />
+      <Button fx:id="GoButton" defaultButton="true" layoutX="805.0" layoutY="183.0" mnemonicParsing="false" onAction="#onClick_Go" style="-fx-background-color: #1F8FE8;" text="Check Salary Status" textFill="#fff8f8" />
+   </children>
+</AnchorPane>

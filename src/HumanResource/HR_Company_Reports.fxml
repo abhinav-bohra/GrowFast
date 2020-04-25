@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="690.0" prefWidth="880.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumanResource.HR_Company_Reports_Controller">
+   <children>
+      <AnchorPane prefHeight="690.0" prefWidth="266.0" style="-fx-background-color: #257ca9;">
+         <children>
+            <Button fx:id="DashboardButton" focusTraversable="false" layoutY="72.0" mnemonicParsing="false" onAction="#onAction_DashboardButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="  Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="55.0" right="5.0" top="32.0" />
+               </opaqueInsets></Button>
+            <Button fx:id="AddEmployee" defaultButton="true" layoutY="145.0" mnemonicParsing="false" onAction="#onAction_AddEmployee" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="     Manage Employee" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ApproveApplicationButton" defaultButton="true" layoutY="218.0" mnemonicParsing="false" onAction="#onAction_ApproveApplicationButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="        Approve Applications" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="ManageSalaryButton" defaultButton="true" layoutY="291.0" mnemonicParsing="false" onAction="#onAction_ManageSalaryButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Manage Payroll" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="UpdatePerformanceButton" defaultButton="true" layoutY="364.0" mnemonicParsing="false" onAction="#onAction_UpdatePerformanceButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="         Update Performance" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="NewButton" defaultButton="true" layoutY="437.0" mnemonicParsing="false" onAction="#onAction_NewButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="            Company Reports" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Manage_GrievancesButton" defaultButton="true" layoutY="510.0" mnemonicParsing="false" onAction="#onAction_Manage_GrievancesButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="             Manage Grievances" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogoutButton" defaultButton="true" layoutY="583.0" mnemonicParsing="false" onAction="#onAction_LogoutButton" prefHeight="69.0" prefWidth="266.0" style="-fx-background-color: #1F8FE8;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="BackButton" defaultButton="true" layoutY="14.0" mnemonicParsing="false" onAction="#onAction_BackButton" prefHeight="41.0" prefWidth="56.0" style="-fx-background-color: #1F8FE8;" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/chevron-sign-left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="98.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(7).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="57.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/pay.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="60.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/interview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="64.0" layoutY="607.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/logout%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="59.0" layoutY="460.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../icons/1%201%20Latest_Icon%20(8).png" />
+               </image>
+            </ImageView>
+            </children>
+      </AnchorPane>
+      <HBox layoutX="266.0" layoutY="34.0" prefHeight="70.0" prefWidth="641.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="651.0" style="-fx-background-color: #257ca9;" text="EMPLOYEE PERFORMANCE REPORT" textAlignment="CENTER" textFill="#f5eeee">
+               <font>
+                  <Font name="Trebuchet MS Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <BarChart fx:id="Chart1" alternativeColumnFillVisible="true" animated="false" categoryGap="15.0" layoutX="345.0" layoutY="120.0" legendVisible="false" prefHeight="290.0" prefWidth="500.0" title="Mean Performance of Employees">
+         <xAxis>
+            <CategoryAxis fx:id="X1" label="Qualities" side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="Y1" label="Score" side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <Label layoutX="544.0" layoutY="469.0" text="Top Performers" textFill="#257ca9">
+         <font>
+            <Font name="Trebuchet MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="520.0" prefHeight="18.0" prefWidth="139.0" text="Most Sincere Employee:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Sincere" layoutX="476.0" layoutY="520.0" prefHeight="18.0" prefWidth="132.0" text="To be Decided" />
+      <Label layoutX="320.0" layoutY="563.0" prefHeight="18.0" prefWidth="139.0" text="Best Leader:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Leader" layoutX="476.0" layoutY="563.0" prefHeight="18.0" prefWidth="132.0" text="To be Decided" />
+      <Label layoutX="320.0" layoutY="606.0" prefHeight="18.0" prefWidth="139.0" text="Best Integrity:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Integrity" layoutX="476.0" layoutY="606.0" prefHeight="18.0" prefWidth="132.0" text="To be Decided" />
+      <Label layoutX="620.0" layoutY="520.0" prefHeight="18.0" prefWidth="139.0" text="Most Reliable Employee:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Reliable" layoutX="776.0" layoutY="520.0" prefHeight="18.0" prefWidth="132.0" text="To be Decided" />
+      <Label layoutX="620.0" layoutY="563.0" prefHeight="18.0" prefWidth="132.0" text="Best Teamplayer:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Team" layoutX="776.0" layoutY="563.0" prefHeight="18.0" prefWidth="132.0" text="To be Decided" />
+      <Label layoutX="620.0" layoutY="606.0" prefHeight="18.0" prefWidth="132.0" text="Best Soft Skills:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Soft" layoutX="776.0" layoutY="606.0" prefHeight="18.0" prefWidth="132.0" text="To be Decided" />
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="591.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/trophy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="591.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/trophy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="591.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/trophy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="293.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/trophy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="293.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/trophy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="293.0" layoutY="605.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/trophy.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
