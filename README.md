@@ -5,6 +5,9 @@ management of an organization to manage their HR related activities more effecti
 efficiently. It is a holistic software to help employees of an organization to carry out their
 internal and task easily and effectively.
 
+## Screenshots
+![alt text](http://url/to/img.png)
+
 ## Getting Started
 
 Download or clone this repository on your system. See deployment for notes on how to deploy 
