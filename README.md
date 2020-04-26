@@ -39,10 +39,10 @@ java --module-path "C:\path\java\javafx-sdk-11.0.2\lib" --add-modules javafx.fxm
 
 ## Design and Implementation Constraints
 The constraints are :
-- Cannot implemented as an Android/IOS App
+- Cannot be implemented as an Android/IOS App
 - Doesn’t work on outdated/slow servers
 - No other languages except English is used in this implementation
--  Advanced security features haven’t been introduced
+- Advanced security features haven’t been introduced as of yet
 
 ## Assumptions and Dependencies
 
