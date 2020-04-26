@@ -28,7 +28,7 @@ the project on a live system.
 java --module-path "C:\path\java\javafx-sdk-11.0.2\lib" --add-modules javafx.fxml,javafx.controls,javafx.graphics 
 -jar Growfast.jar
 ```
-- (Add path to JavaFX 11.0.2 folder in the above command)
+- Add path to JavaFX 11.0.2 folder in the above command
 - Run Growfast.bat file
 
 ## Built With
@@ -52,8 +52,3 @@ be proper Banking System working independent
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## Acknowledgments
-
-
-
