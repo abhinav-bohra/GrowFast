@@ -34,7 +34,8 @@ java --module-path "C:\path\java\javafx-sdk-11.0.2\lib" --add-modules javafx.fxm
 ## Built With
 
 * [JavaFX](https://openjfx.io/) - Used for making GUI
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Maven](https://maven.apache.org/) - Used for Dependency Management
+* [MySQl](https://www.mysql.com/downloads/) - Used for Database Management 
 
 ## Design and Implementation Constraints
 The constraints are :
