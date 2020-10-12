@@ -3,7 +3,7 @@
 GrowFast is an integrated management tool and Employee-HR portal which helps top level
 management of an organization to manage their HR related activities more effectively and
 efficiently. It is also a holistic software to help employees of an organization to carry
-out their internal and task easily and effectively.
+out their internal tasks easily and effectively.
 
 ## Screenshots
 ![GrowFast](https://github.com/abhinav-bohra/GrowFast/blob/master/Screenshots/Collage.jpg)
